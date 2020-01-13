@@ -1,0 +1,197 @@
+{
+	"id": "63fcef84-873b-48e4-9f6b-72515cbb3569",
+	"name": "Pizza",
+	"allTests": [],
+	"timestamp": "2020-01-13T09:18:48.767Z",
+	"collection_id": "1cc80978-7dc9-4577-8f82-036f445a17f0",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "1cc80978-7dc9-4577-8f82-036f445a17f0",
+		"name": "Pizza",
+		"order": [
+			"ed84c57c-3c48-4636-b22c-5e62fb8ea4e9",
+			"a5591dde-85d3-4560-9072-ecd34384fc37",
+			"cc909061-6c07-4917-977e-9b44bf42be8c",
+			"b38cfadd-9417-432c-ad5e-7d00780abc1d"
+		],
+		"folders_order": [],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": " http://127.0.0.1:8000/orderViwes/?custumerName=sayed&delivery=True\n",
+			"id": "ed84c57c-3c48-4636-b22c-5e62fb8ea4e9",
+			"url": "http://127.0.0.1:8000/orderViwes/?custumerName=sayed&delivery=True",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"15"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "15",
+			"totalRequestTime": "15",
+			"iterationResults": {}
+		},
+		{
+			"name": " http://127.0.0.1:8000/orderViwes/22/",
+			"id": "a5591dde-85d3-4560-9072-ecd34384fc37",
+			"url": "http://127.0.0.1:8000/orderViwes/22/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"15"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "15",
+			"totalRequestTime": "15",
+			"iterationResults": {}
+		},
+		{
+			"name": " http://127.0.0.1:8000/orderViwes/",
+			"id": "cc909061-6c07-4917-977e-9b44bf42be8c",
+			"url": "http://127.0.0.1:8000/orderViwes/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"17"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "17",
+			"totalRequestTime": "17",
+			"iterationResults": {}
+		},
+		{
+			"name": " http://127.0.0.1:8000/orderViwes/22/",
+			"id": "b38cfadd-9417-432c-ad5e-7d00780abc1d",
+			"url": "http://127.0.0.1:8000/orderViwes/22/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"95"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "95",
+			"totalRequestTime": "95",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 142,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": " http://127.0.0.1:8000/orderViwes/?custumerName=sayed&delivery=True\n",
+			"id": "ed84c57c-3c48-4636-b22c-5e62fb8ea4e9",
+			"url": "http://127.0.0.1:8000/orderViwes/?custumerName=sayed&delivery=True",
+			"time": "2020-01-13T09:18:48.767Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": " http://127.0.0.1:8000/orderViwes/22/",
+			"id": "a5591dde-85d3-4560-9072-ecd34384fc37",
+			"url": "http://127.0.0.1:8000/orderViwes/22/",
+			"time": "2020-01-13T09:18:48.767Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": " http://127.0.0.1:8000/orderViwes/",
+			"id": "cc909061-6c07-4917-977e-9b44bf42be8c",
+			"url": "http://127.0.0.1:8000/orderViwes/",
+			"time": "2020-01-13T09:18:48.767Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": " http://127.0.0.1:8000/orderViwes/22/",
+			"id": "b38cfadd-9417-432c-ad5e-7d00780abc1d",
+			"url": "http://127.0.0.1:8000/orderViwes/22/",
+			"time": "2020-01-13T09:18:48.767Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
